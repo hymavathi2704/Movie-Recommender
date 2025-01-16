@@ -57,7 +57,7 @@ if st.button('Recommend'):
 
     for col, name, poster in zip(columns, names, posters):
         with col:
-            st.image(poster, use_column_width=True)
+            st.image('your_image.png', use_container_width=True)
             st.markdown(f"<h4 style='text-align: center; color: #FF6347;'>{name}</h4>", unsafe_allow_html=True)
 
 
