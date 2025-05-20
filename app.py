@@ -61,5 +61,5 @@ if st.button('Recommend'):
             st.markdown(f"<h4 style='text-align: center; color: #FF6347;'>{name}</h4>", unsafe_allow_html=True)
 
 
-st.write("Developed By Charan and the Team")
+st.write("Developed By Hyma")
 
